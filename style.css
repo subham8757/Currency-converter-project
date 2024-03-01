@@ -1,0 +1,150 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;}
+
+body{
+    background-image: url(wallpaperflare.com_wallpaper.jpg);
+    background-size: cover;
+}
+
+#allcontainer{
+     background-color: white;
+     width: 30%;
+     height: auto;
+     margin: auto;
+     margin-top: 100px;
+     text-align: center;
+     padding: 20px;
+     border-radius: 50px;
+     box-shadow: 0 29px 52px rgba(0,0,0,0.40), 0 25px 16px rgba(0,0,0,0.20);
+     display: flex;
+     flex-direction: column;
+     align-items: center;
+     
+}
+
+#type-amount{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+    border: none;
+    border-radius: 10px;
+    width: 90%;
+    margin: auto;
+    margin-top: 30px;
+    padding: 10px;
+
+}
+
+#enterammount{
+    width: 80%;
+    border: none;
+}
+
+#fromtosection{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 50px;
+    gap: 20px;
+}
+
+
+#from{
+    padding: 7px;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+    border: none;
+    border-radius: 10px;
+
+}
+
+#to{
+    padding: 7px;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+    border: none;
+    border-radius: 10px;
+}
+
+
+#enterammount{
+    padding: 8px;
+}
+
+#rate{
+    width: 90%;
+    padding: 15px;
+    border-radius: 30px;
+    border: none;
+    margin-top: 20px;
+    background-color: #2E2D4D;
+    color: white;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+    cursor: pointer;
+    font-weight: bold;
+    
+    
+}
+
+#rate:hover{
+    background-color: #212037;
+}
+
+#exchange{
+    font-size: 20px;
+    
+}
+
+
+#show{
+    font-size: 20px;
+    font-weight: bold;
+}
+
+
+
+
+
+  
+  
+  #enterammount:hover {
+    outline: none
+  }
+
+
+
+  @media (max-width:768px){
+
+       
+     #allcontainer{
+        width: 50%;
+     }
+
+  }
+
+
+  @media (max-width:425px){
+
+       
+    #allcontainer{
+       width: 70%;
+    }
+
+ }
+
+
+ @media (max-width:375px){
+
+       
+    #allcontainer{
+       width: 80%;
+    }
+
+ }
+
+
+  
+
+ 
